@@ -12,7 +12,7 @@ public class MsPractice2Application {
 	@GetMapping("/test")
 	public String test(){
 
-		return "Hello";
+		return "Hello test";
 	}
 
 	@GetMapping("/test2")
