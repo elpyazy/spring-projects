@@ -32,6 +32,12 @@ public class MsPractice2Application {
 		return "Hello Test4";
 	}
 
+	@GetMapping("/test5")
+	public String test5(){
+
+		return "Hello Test5";
+	}
+
 	public static void main(String[] args) {
 		SpringApplication.run(MsPractice2Application.class, args);
 	}
